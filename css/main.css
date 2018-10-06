@@ -1,0 +1,40 @@
+body {
+    background-color: #3C255B;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Roboto', monospace;
+    font-weight: normal;
+    color: #B69DD7;
+    font-size: 22px;
+}
+
+img {
+    border-radius: 25px;
+    border-style: none;
+}
+
+input {
+    background-color: #B69DD7;
+    color: #333333;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 25px;
+    padding: 5px;
+    width: 50%;
+}
+
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.p-header {
+    font-size: 32px;
+    font-weight: bolder;
+}
